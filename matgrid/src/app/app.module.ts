@@ -8,11 +8,13 @@ import {EmployeeService} from './services/employee.service';
 //import { Observable }   from 'rxjs/Observable';
 import { AppComponent } from './app.component';
 import { EmployeeComponent } from './component/employee/employee.component';
+import { AlertcomponentComponent } from './component/alert/alertcomponent.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    EmployeeComponent
+    EmployeeComponent,
+    AlertcomponentComponent
   ],
   imports: [
     BrowserModule,
